@@ -48,8 +48,7 @@
             <div class="navbar bg-base-100">
                 <div class="navbar-start flex">
                     <div class="bg-lime-500 p-1 rounded-full">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </div>
+<i class="fa-solid fa-arrow-right bg-lime-500 p-1 rounded-full -rotate-45"></i>                    </div>
                     <div>
                         <a class="btn btn-ghost text-2xl p-1 font-bold">Rinterio</a>
                     </div>
@@ -73,14 +72,14 @@
                         <div class="p-3 bg-white rounded-full">
                             <i class="fa-solid fa-cart-shopping"></i>
                         </div>
-                        <button class="btn flex bg-lime-500 p-1 rounded-full text-xl font-bold ">
+                        <button class="btn flex bg-lime-500 p-1 px-3 rounded-full text-xl font-bold ">
                             <p>Book Consult</p>
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            <i class="fa-solid fa-arrow-right bg-black text-white p-1 rounded-full -rotate-45"></i>
                         </button>
 
                     </div>
                 </div>
-                <div class="dropdown">
+                <div class="dropdown md:hidden">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -90,7 +89,7 @@
                     </div>
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl font-semibold">
-                        <li></li><a>Home</a></li>
+                        <li><a>Home</a></li>
                         <li><a>Services</a></li>
                         <li><a>Portfolio</a></li>
                         <li><a>Blogs</a></li>
@@ -117,10 +116,10 @@
                         light.</p>
                 </div>
             </div>
-            <div class="mt-5 w-1/4 mx-auto">
-                <button class="btn flex bg-lime-500 p-1 rounded-full text-xl font-bold ">
+            <div class="mt-5 flex justify-around">
+                <button class="btn flex bg-[#ABEF5F80] p-1 rounded-full text-xl font-bold px-2">
                     <p>View Details</p>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i class="fa-solid fa-arrow-right bg-lime-500 p-1 rounded-full -rotate-45"></i>
                 </button>
             </div>
 
@@ -134,19 +133,18 @@
         <section class=" bg-[url('/assets/bg.jpg')]  w-full bg-cover bg-center mb-10 ">
             <!-- part one  -->
             <div>
-                <div class="mr-5 ml-10">
+                <div class=" ml-10 pt-10">
                     <img src="assets/Vector.png" alt="">
                 </div>
-                <div class="flex mt-20 mb-10 mx-5  gap-5">
+                <div class="flex mt-20 mb-10 md:mx-20  gap-5">
                     <div class="w-5/6">
                         <div>
                             <div>
-                                <button class="btn flex bg-white p-1 rounded-full text-xl font-bold items-centre">
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    <p class="text-sm">About Us</p>
+                                <button class="btn flex px-2 bg-white p-1 rounded-full text-xl font-bold items-centre">
+                           <i class="fa-solid fa-arrow-right bg-lime-500 p-1 rounded-full -rotate-45"></i>                                    <p class="text-sm">About Us</p>
                                 </button>
                                 <div class="mr-5">
-                                    <h1 class="font-bold text-3xl">We design thoughtful, <br> liveable spaces</h1>
+                                    <h1 class="font-extrabold text-5xl">We design thoughtful, <br> liveable spaces</h1>
                                     <p class="mr-5">The barn house captivates with its blend of rustic charm and <br>
                                         modern sophistication, featuring weathered wood, sleek metal accents.</p>
                                 </div>
@@ -154,7 +152,7 @@
                             </div>
                         </div>
 
-                        <div class="bg-white flex mt-5 ">
+                        <div class="bg-white rounded-md gap-5 px-5 py-5 flex mt-5 ">
                             <div>
                                 <img src="assets/commercial.png" alt="">
                             </div>
@@ -164,7 +162,7 @@
                             </div>
 
                         </div>
-                        <div class="bg-white flex mt-5 ">
+                        <div class="bg-white rounded-md gap-5 px-5 py-5 flex mt-5 ">
                             <div>
                                 <img src="assets/residential.png" alt="">
                             </div>
@@ -187,8 +185,8 @@
             <!-- part two  -->
             <div>
                 <div>
-                    <div class="">
-                        <button class="btn flex bg-white p-1 rounded-full text-xl font-bold  items-center">
+                    <div class=" flex justify-around">
+                        <button class="btn flex px-3 bg-white p-1 rounded-full text-xl font-bold  items-center">
                             <i class="fa-solid fa-arrow-right"></i>
                             <p>How we works</p>
 
@@ -196,61 +194,130 @@
 
                     </div>
                     <div class=" text-center">
-                        <h1 class="text-2xl font-bold mb-5">Our Works Process</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br>
+                        <h1 class="text-5xl font-extrabold mb-5">Our Works Process</h1>
+                        <p class=" font-bold">The barn house captivates with its blend of rustic charm and modern sophistication, <br>
                             featuring weathered wood, sleek metal accents.</p>
                     </div>
                 </div>
 
-                <div class="flex gap-5 ">
-                    <!-- card one -->
-                    <div class="mt-5 bg-violet-400">
-                        <div>
-                            <img src="assets/concept.png" alt="">
+                <div class=" flex justify-around">
+                    <div class="flex gap-5  ">
+                        <!-- card one -->
+                        <div class="mt-5 bg-[#E7C1D3] p-3 rounded-md">
+                            <div>
+                                <img src="assets/concept.png" alt="">
+                            </div>
+                            <div>
+                                <h1 class="font-extrabold text-base ">Concept</h1>
+                                <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+                            </div>
                         </div>
-                        <div>
-                            <h1 class="font-bold text-base">Concept</h1>
-                            <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+                        <!-- card two -->
+                        <div class="mt-5 bg-[#EFDA6E] p-3 rounded-md">
+                            <div>
+                                <img src="assets/flow-chart.png" alt="">
+                            </div>
+                            <div>
+                                <h1 class="font-extrabold text-base">Design Process</h1>
+                                <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+                            </div>
                         </div>
+                        <!-- card three -->
+                        <div class="mt-5 bg-[#A4DAC3] p-3 rounded-md">
+                            <div>
+                                <img src="assets/vision.png" alt="">
+                            </div>
+                            <div>
+                                <h1 class="font-extrabold text-base">Supervision</h1>
+                                <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+                            </div>
+                        </div>
+                        <!-- card four -->
+                        <div class="mt-5 bg-[#77AAEA] p-3 rounded-md">
+                            <div>
+                                <img src="assets/budget-planning.png" alt="">
+                            </div>
+                            <div>
+                                <h1 class="font-extrabold text-base">Concept</h1>
+                                <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
+                            </div>
+                        </div>
+    
                     </div>
-                    <!-- card two -->
-                    <div class="mt-5 bg-yellow-400">
-                        <div>
-                            <img src="assets/flow-chart.png" alt="">
-                        </div>
-                        <div>
-                            <h1 class="font-bold text-base">Concept</h1>
-                            <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
-                        </div>
-                    </div>
-                    <!-- card three -->
-                    <div class="mt-5 bg-green-300">
-                        <div>
-                            <img src="assets/vision.png" alt="">
-                        </div>
-                        <div>
-                            <h1 class="font-bold text-base">Concept</h1>
-                            <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
-                        </div>
-                    </div>
-                    <!-- card four -->
-                    <div class="mt-5 bg-blue-400">
-                        <div>
-                            <img src="assets/budget-planning.png" alt="">
-                        </div>
-                        <div>
-                            <h1 class="font-bold text-base">Concept</h1>
-                            <p>The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
-                        </div>
-                    </div>
-
                 </div>
             </div>
 
             <!-- challange part  -->
-             <div>
+             <div class="bg-white my-3">
+                <div class="flex justify-around">
+                    <button class="btn flex bg-green-200 p-1 rounded-full text-xl font-bold items-centre">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <p class="text-sm"> Explore Our Latest Works </p>
+                    </button>
+                </div>
+                <h1 class=" text-center text-5xl font-extrabold">Our Latest Portfolio</h1>
+                <p class=" text-center py-3 ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <div class="mx-20">
+                    <div class=" grid grid-cols-3 gap-3">
+                        <div class=" col-span-2 flex items-center gap-3 border-2 rounded-2xl mx-auto ">
+                            <img src="./assets/img1.png" class="px-3" alt="">
+                            <div class="px-3">
+                                <h1 class=" font-bold text-2xl"> Commercial </h1>
+                                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                                <button class="btn flex mt-3 p-1 rounded-full text-xl font-bold items-centre">
+                                    <p class="text-sm font-bold"> view Details </p>
+                                    <i class="fa-solid fa-arrow-right -rotate-45 p-1 rounded-full bg-green-500" ></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class=" border-2 rounded-2xl mx-auto">
+                            <img src="./assets/img2.png" class=" p-2" alt="">
+                        </div>
+                    </div>
+                    <div class=" grid grid-cols-4 gap-3 py-5">
+                        <div class=" border-2 rounded-2xl my-auto mx-auto">
+                            <img src="./assets/img3.png" class=" p-2" alt="">
+                        </div>
+                        <div class=" col-span-2 flex items-center gap-3 border-2 rounded-2xl mx-auto ">
+                            <img src="./assets/img4.png" class="px-3" alt="">
+                            <div class="px-3">
+                                <h1 class=" font-bold text-2xl"> Commercial </h1>
+                                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                                <button class="btn flex  p-1 rounded-full text-xl font-bold items-centre">
+                                    <p class="text-sm font-bold"> view Details </p>
+                                    <i class="fa-solid fa-arrow-right -rotate-45 p-1 rounded-full bg-green-500" ></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class=" border-2 rounded-2xl mx-auto">
+                            <img src="./assets/img5.png" class=" p-2" alt="">
+                        </div>
+                    </div>
 
+                </div>
              </div>
+
+             <!-- Image Gallery -->
+            <div>
+                <h1 class=" font-extrabold text-3xl text-center py-5">The Success Gallery of Our Team</h1>
+                <div class=" flex justify-around ">
+                    <div class=" grid grid-cols-3 gap-8 mx-20">
+                        <img class="w-72 h-60 rounded-xl" src="./assets/img1.png" alt="">
+                        <img class="w-72 h-60 rounded-xl" src="./assets/img2.png" alt="">
+                        <img class="w-72 h-60 rounded-xl" src="./assets/img3.png" alt="">
+                        <img class="w-72 h-60 rounded-xl" src="./assets/img4.png" alt="">
+                        <img class="w-72 h-60 rounded-xl" src="./assets/img5.png" alt="">
+                        <img class="w-72 h-60 rounded-xl" src="https://img.freepik.com/free-photo/blue-house-with-blue-roof-sky-background_1340-25953.jpg" alt="">
+                    </div>
+                </div>
+                <p class=" text-center py-3">Stay with safety and trust ...</p>
+                <div class=" flex justify-around py-5">
+                    <button class="btn flex mt-3 p-1 rounded-full text-xl font-bold items-centre">
+                        <p class="text-sm font-bold"> view Details </p>
+                        <i class="fa-solid fa-arrow-right -rotate-45 p-1 rounded-full bg-green-500" ></i>
+                    </button>
+                </div>
+            </div>
 
 
         </section>
@@ -258,52 +325,72 @@
         <!-- section two  -->
          <section class=" bg-[url('/assets/bg.jpg')]  w-full bg-cover bg-center  ">
             <div>
-                <div class="items-center">
+                <div class="flex py-3 px-3 justify-around">
                     <button class="btn flex bg-green-200 p-1 rounded-full text-xl font-bold items-centre">
                         <i class="fa-solid fa-arrow-right"></i>
-                        <p class="text-sm">About Us</p>
+                        <p class="text-sm">Lets Connect</p>
                     </button>
                 </div>
                 <div>
-                    <h1 class="font-bold text-3xl text-center">Let’s Discuss Next Project</h1>
+                    <h1 class="font-bold text-3xl text-center ">Let’s Discuss Next Project</h1>
                     <p class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
                 </div>
             </div>
 
             <div>
-                <p>form</p>
+                <div class=" flex justify-around">
+                    <div >
+                        <div class="flex gap-5 pt-5">
+                            <input type="text" placeholder="First Name*" class="input w-[500px] input-bordered max-w-xs rounded-r-full rounded-l-full " />
+                            <input type="text" placeholder="Last Name*" class="input w-[500px] input-bordered max-w-xs rounded-r-full rounded-l-full " />
+                            
+                        </div>
+                        <div class="flex gap-5 py-5">
+                            <input type="text" placeholder="Phone Number*" class="input w-[500px] input-bordered max-w-xs rounded-r-full rounded-l-full " />
+                            <input type="text" placeholder="Email Number*" class="input w-[500px] input-bordered max-w-xs rounded-r-full rounded-l-full " />
+                            
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class=" flex justify-around "><textarea class="textarea textarea-bordered pb-20 my-5 w-[650px]" placeholder="Write your message here"></textarea></div>
+                <div  class="flex justify-around py-5">
+
+                    <button class="btn flex w-[650px] bg-lime-500 p-1 rounded-full text-xl font-bold ">
+                        <p>Send Mail</p>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </div>
             </div>
             <div>
-                <button class="btn flex bg-lime-500 p-1 rounded-full text-xl font-bold ">
-                    <p>Send Mail</p>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </button>
+               
             </div>
          </section>
     </main>
-    <footer class="bg-slate-800">
-        <div class="navbar-start flex">
-            <div class="bg-lime-500 p-1 rounded-full">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    <footer class="bg-black py-5">
+        <div class="flex justify-around">
+            <div class=" ">
+                <i class="fa-solid fa-arrow-right bg-lime-500 p-1 rounded-full -rotate-45"></i><a class="btn btn-ghost text-2xl text-white p-1 font-bold">Rinterio</a>
             </div>
-            <div>
-                <a class="btn btn-ghost text-2xl p-1 font-bold">Rinterio</a>
-            </div>
-            <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        </div>
+            <p class="text-center py-5">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
         </div>
 
-        <div>
+        
+        <div class=" flex justify-around mx-28 py-5">
+            <p class=" text-white">Home</p>
+            <p class=" text-white">Services</p>
+            <p class=" text-white">Portfolio</p>
+            <p class=" text-white">Blogs</p>
+            <p class=" text-white">Contact Us</p>
 
         </div>
 
-        <div>
-
-        </div>
-
-        <div>
+        <div class=" flex justify-around py-5">
             <button class="btn flex bg-lime-500 p-1 rounded-full text-xl font-bold ">
                 <p>Book Consult</p>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <i class="fa-solid fa-arrow-right bg-black text-white p-1 rounded-full -rotate-45"></i>
             </button>
         </div>
     </footer>
